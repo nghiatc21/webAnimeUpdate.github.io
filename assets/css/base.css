@@ -1,0 +1,24 @@
+:root{
+    --primary-color: #999;
+    --text-color: #fff;
+    --title-color: rgb(252, 71, 71);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: cursive;
+    background-color: var(--primary-color);
+    text-align: center;
+    height: 2000px;
+}
+.grid-colum-8{
+    width: 66.6667%;
+    padding: 8px;
+}
+.grid-colum-4{
+    width: 33.3334%;
+    padding: 8px;
+}
